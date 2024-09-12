@@ -28,11 +28,9 @@ const Navbar = () => {
                         </div>
                         <div className='hidden md:flex gap-3'>
                             <a className='border-2 border-[#873884] rounded-3xl text-[#873884] font-semibold py-1 px-4 hover:bg-[#873884] hover:text-white transition-all duration-500 cursor-pointer'>
-                                My account
+                                Join Now
                             </a>
-                            <a className='border-2 border-[#873884] rounded-3xl bg-[#873884] text-white px-2 py-1 hover:bg-[#9c4699] transition-all duration-500 font-semibold cursor-pointer'>
-                                QUOTES AND RESERVATION
-                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -50,11 +48,9 @@ const Navbar = () => {
 
                 <div className={`flex flex-col gap-3 md:hidden bg-[#873884] text-white px-4 py-2 ${menuOpen ? 'block' : 'hidden'}`}>
                     <a className='border-2 border-[#873884] rounded-3xl text-[#873884] font-semibold py-1 px-4 hover:bg-[#873884] hover:text-white transition-all duration-500 cursor-pointer'>
-                        My account
+                        Join Now
                     </a>
-                    <a className='border-2 border-[#873884] rounded-3xl bg-[#873884] text-white px-2 py-1 hover:bg-[#9c4699] transition-all duration-500 font-semibold cursor-pointer'>
-                        QUOTES AND RESERVATION
-                    </a>
+                   
                 </div>
             </nav>
         </>
